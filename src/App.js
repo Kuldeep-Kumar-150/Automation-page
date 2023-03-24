@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import MyNav from './components/MyNav';
+import MyHeader from './components/MyHeader';
+import Automation from './components/Automation';
+import PostAutomation from './components/PostAutomation';
+import Process from './components/Process';
+import Duration from './components/Duration';
 
 function App() {
+
+  // let a = [1, 2, 3, 4, 5]
+  // for (let k = 0; k < a.length; k++) {
+  //   console.log(a[k])
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MyNav />
+      <MyHeader />
+      <Automation />
+      <PostAutomation />
+      <Process />
+      <Duration />
+    </>
   );
 }
 
