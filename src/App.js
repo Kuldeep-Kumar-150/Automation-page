@@ -19,14 +19,14 @@ function App() {
       document.querySelector(".preloder").classList.add("top_100")
       document.body.classList.remove("overflow-hidden")
     }, 1000),
-  <>
-    <MyNav />
-    <MyHeader />
-    <Automation />
-    <PostAutomation />
-    <Process />
-    <Duration />
-  </>
+    <>
+      <MyNav />
+      <MyHeader />
+      <Automation />
+      <PostAutomation />
+      <Process />
+      <Duration />
+    </>
   );
 }
 

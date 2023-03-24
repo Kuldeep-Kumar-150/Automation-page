@@ -456,11 +456,11 @@
 }
 
 .top_100 {
-  opacity: 0 !important;
+  top: -100% !important;
 }
 
 .preloder {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: #353EAE;
   position: fixed;
@@ -476,17 +476,18 @@
 
 @keyframes logo {
   0% {
-    transform: scale(1,1);
+    transform: scale(1, 1);
   }
 
   50% {
-    transform: scale(1.5,1.5);
+    transform: scale(1.5, 1.5);
   }
 
   100% {
-    transform: scale(1,1);
+    transform: scale(1, 1);
   }
 }
+
 
 @media (min-width:576px) {
   :root {
