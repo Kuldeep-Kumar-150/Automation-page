@@ -7,6 +7,11 @@ const MyNav = () => {
         <>
             <nav>
                 <Container>
+                    <div className='preloder d-flex justify-content-center align-items-center'>
+                        <div className='logo-animation'>
+                            <img src={pageLogo} alt="logo" />
+                        </div>
+                    </div>
                     <div className="d-flex justify-content-between py-4">
                         <a href="#"><img className='logo-width' src={pageLogo} alt="logo" /></a>
                         <ul className='z-index-3 d-flex align-items-center p-0 m-0 gap-2 gap-sm-5'>

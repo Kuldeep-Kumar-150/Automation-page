@@ -455,6 +455,39 @@
   box-shadow: 2px 1px 16px 6px rgba(0, 0, 0, 0.53) !important;
 }
 
+.top_100 {
+  opacity: 0 !important;
+}
+
+.preloder {
+  height: 100vh;
+  width: 100%;
+  background-color: #353EAE;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 6 !important;
+  transition: 500ms linear;
+}
+
+.logo-animation {
+  animation: logo 5s linear infinite;
+}
+
+@keyframes logo {
+  0% {
+    transform: scale(1,1);
+  }
+
+  50% {
+    transform: scale(1.5,1.5);
+  }
+
+  100% {
+    transform: scale(1,1);
+  }
+}
+
 @media (min-width:576px) {
   :root {
     --fs-xsm: 20px;
